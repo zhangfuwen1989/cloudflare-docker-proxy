@@ -9,13 +9,13 @@ const routes = {
   // production
   ["d01.bugaoxing.com"]: dockerHub,
   ["dockerpull.bugaoxing.com"]: dockerHub,
-  ["quay." + CUSTOM_DOMAIN]: "https://quay.io",
-  ["gcr." + CUSTOM_DOMAIN]: "https://gcr.io",
-  ["k8s-gcr." + CUSTOM_DOMAIN]: "https://k8s.gcr.io",
-  ["k8s." + CUSTOM_DOMAIN]: "https://registry.k8s.io",
-  ["ghcr." + CUSTOM_DOMAIN]: "https://ghcr.io",
-  ["cloudsmith." + CUSTOM_DOMAIN]: "https://docker.cloudsmith.io",
-  ["ecr." + CUSTOM_DOMAIN]: "https://public.ecr.aws",
+  ["quay.bugaoxing.com"]: "https://quay.io",
+  ["gcr.bugaoxing.com"]: "https://gcr.io",
+  ["k8s-gcr.bugaoxing.com"]: "https://k8s.gcr.io",
+  ["k8s.bugaoxing.com"]: "https://registry.k8s.io",
+  ["ghcr.bugaoxing.com"]: "https://ghcr.io",
+  ["cloudsmith.bugaoxing.com"]: "https://docker.cloudsmith.io",
+  ["ecr.bugaoxing.com"]: "https://public.ecr.aws",
 
   // staging
   ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
