@@ -2,7 +2,6 @@ addEventListener("fetch", (event) => {
   event.passThroughOnException();
   event.respondWith(handleRequest(event.request));
 });
-
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
